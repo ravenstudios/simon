@@ -10,60 +10,62 @@
 }
 .controles{
 
-  width:220px;
-  height:220px;
+  width:200px;
+  height:200px;
   position : absolute;
   border-radius:100%;
-  top:50%;
-  left:50%;
-  margin: -155px 0 0  -122px;
+  /*top:50%;
+  left:50%;*/
+  margin: 127px 0 0  127px;
   background-color:#ECE7EE;
   border: 12px solid #333;
-
+  z-index: 2;
 }
 
 button{
 
   position:relative;
   top:50%;
-  
+
 }
-.center{
+/*.center{
     margin: auto;
     padding-top: 15px;
-}
+}*/
 
 .gameButton{
-margin: -2px -2px -2px -2px;
+  margin: 15px 0px 0px 15px;
   height: 200px;
   width: 200px;
-  /*margin: 10px 10px 10px 10px;*/
-border: 14px solid #333;
-
+  /*margin: 11px 11px 11px 11px;*/
+  border: 14px solid #333;
+  position:relative;
+  z-index: 1;
+  float: left;
 }
 
 
 .greenGameButton{
 
-  background-color: green;
+
   border-top-left-radius : 100%;
 
 }
 
 .redGameButton{
-  background-color: red;
+
   border-top-right-radius : 100%;
 }
 
 
 .blueGameButton{
-  background-color: blue;
+
   border-bottom-left-radius : 100%;
 }
 
 
 .yellowGameButton{
-  background-color: yellow;
+
   border-bottom-right-radius : 100%;
 
 }

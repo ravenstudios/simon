@@ -74,3 +74,50 @@ button{
     display: inline-block;
 
 }*/
+
+.simon{
+  font-family: 'Alfa Slab One';
+  text-align: center;
+  font-size: 50px;
+  margin-left: auto;
+  margin-top: 10px;
+
+}
+
+.counter{
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: -50px;
+  display: block;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+}
+
+.buttons{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+tr, td{
+  padding: 15px;
+  padding-top: 2px;
+}
+
+.controlButtons{
+  padding: 10px 10px;
+  border-radius:100%;
+  background-color: rgba(255, 0, 0, 0.5);
+
+
+}
+
+.controlButtons:focus{
+  outline:none;
+}

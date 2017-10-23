@@ -4,13 +4,26 @@
     <meta charset="utf-8">
     <title>Simon</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel='stylesheet', href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald|VT323'> -->
   </head>
   <body>
     <div class="main-wrapper">
       <div class="controles">
-        <button type="button" name="button">button 1</button>
-        <button type="button" name="button">button 1</button>
-        <button type="button" name="button">button 1</button>
+        <p class="simon inline">Simon</p>
+        <input class="counter inline" type="text" id="counter" value="00" readonly>
+        <table class="buttons">
+          <tr>
+            <th>On/Off</th>
+            <th>Reset</th>
+            <th>Strict</th>
+            <tr>
+              <td><button class="controlButtons" type="button" id="onOff"></button></td>
+              <td><button class="controlButtons" type="button" id="reset"></button></td>
+              <td><button class="controlButtons" type="button" id="strict"></button></td>
+            </tr>
+
+          </tr>
+        </table>
       </div>
 
           <div class="gameButton greenGameButton float"></div>
@@ -18,17 +31,7 @@
 
           <div class="gameButton blueGameButton float"></div>
           <div class="gameButton yellowGameButton float"></div>
-
-
-
-
-
-
-
-
-
-
-</div><!-- end main wrapper -->
+  </div><!-- end main wrapper -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js.js"></script>

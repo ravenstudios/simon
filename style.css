@@ -1,0 +1,74 @@
+.main-wrapper{
+  height: 500px;
+  width: 500px;
+  border-radius:100%;
+  background-color: black;
+  margin: auto;
+  /*display: block;
+  position: absolute;
+    right: 66%;*/
+}
+.controles{
+
+  width:220px;
+  height:220px;
+  position : absolute;
+  border-radius:100%;
+  top:50%;
+  left:50%;
+  margin: -155px 0 0  -122px;
+  background-color:#ECE7EE;
+  border: 12px solid #333;
+
+}
+
+button{
+
+  position:relative;
+  top:50%;
+  
+}
+.center{
+    margin: auto;
+    padding-top: 15px;
+}
+
+.gameButton{
+margin: -2px -2px -2px -2px;
+  height: 200px;
+  width: 200px;
+  /*margin: 10px 10px 10px 10px;*/
+border: 14px solid #333;
+
+}
+
+
+.greenGameButton{
+
+  background-color: green;
+  border-top-left-radius : 100%;
+
+}
+
+.redGameButton{
+  background-color: red;
+  border-top-right-radius : 100%;
+}
+
+
+.blueGameButton{
+  background-color: blue;
+  border-bottom-left-radius : 100%;
+}
+
+
+.yellowGameButton{
+  background-color: yellow;
+  border-bottom-right-radius : 100%;
+
+}
+
+/*.block {
+    display: inline-block;
+
+}*/

@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>Simon</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel='stylesheet', href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald|VT323'> -->
+    <link rel='stylesheet', href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald|VT323'>
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
   </head>
   <body>
     <div class="main-wrapper">
       <div class="controles">
-        <p class="simon inline">Simon</p>
-        <input class="counter inline" type="text" id="counter" value="00" readonly>
+        <p class="simon inline">Simon®</p>
+        <input class="counter inline" type="text" id="counter" value="" readonly>
         <table class="buttons">
           <tr>
             <th>On/Off</th>
@@ -26,11 +28,11 @@
         </table>
       </div>
 
-          <div class="gameButton greenGameButton float"></div>
-          <div class="gameButton redGameButton float"></div>
+          <div class="gameButton greenGameButton float"><p class="letter">Q</p></div>
+          <div class="gameButton redGameButton float"><p class="letter">P</p></div>
 
-          <div class="gameButton blueGameButton float"></div>
-          <div class="gameButton yellowGameButton float"></div>
+          <div class="gameButton blueGameButton float"><p class="letter">A</p></div>
+          <div class="gameButton yellowGameButton float"><p class="letter">L</p></div>
   </div><!-- end main wrapper -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

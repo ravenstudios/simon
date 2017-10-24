@@ -78,18 +78,20 @@ button{
 .simon{
   font-family: 'Alfa Slab One';
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   margin-left: auto;
-  margin-top: 10px;
+  margin-top: 30px;
 
 }
 
 .counter{
+  font-family: 'Segment7Standard';
+  background-color: rgba(255, 0, 0, 1);
   font-size: 30px;
-  width: 60px;
+  width: 40px;
   text-align: center;
   margin: auto;
-  margin-top: -50px;
+  margin-top: -45px;
   display: block;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -101,7 +103,7 @@ button{
 .buttons{
   text-align: center;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 1px;
 
 }
 
@@ -120,4 +122,16 @@ tr, td{
 
 .controlButtons:focus{
   outline:none;
+}
+
+.letter{
+  color: white;
+  font-size: 50px;
+  margin-left: 70px;
+  margin-top: 70px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
 }
